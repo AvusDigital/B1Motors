@@ -1,6 +1,7 @@
 'use client'
 
 import { useState } from 'react'
+import Image from 'next/image'
 
 type CarGalleryProps = {
   images: string[]
@@ -12,11 +13,13 @@ export default function CarGallery({ images, model }: CarGalleryProps) {
 
   return (
     <div>
-      <div className="overflow-hidden rounded-2xl border border-white/10 bg-white/5">
-        <img
+      <div className="relative overflow-hidden rounded-2xl border border-white/10 bg-white/5 h-[470px]">
+        <Image
           src={selectedImage}
           alt={model}
-          className="h-[470px] w-full object-cover object-[center_30%] transition duration-300"
+          fill
+          sizes="100vw"
+          className="object-cover object-[center_30%] transition duration-300"
         />
       </div>
 
@@ -29,16 +32,18 @@ export default function CarGallery({ images, model }: CarGalleryProps) {
               key={index}
               type="button"
               onClick={() => setSelectedImage(image)}
-              className={`overflow-hidden rounded-xl border transition ${
+              className={`relative overflow-hidden rounded-xl border transition h-24 ${
                 isActive
                   ? 'border-red-500 shadow-[0_0_18px_rgba(220,38,38,0.18)]'
                   : 'border-white/10 hover:border-red-500/40'
               }`}
             >
-              <img
+              <Image
                 src={image}
                 alt={`${model} ${index + 1}`}
-                className="h-24 w-full object-cover object-[center_30%]"
+                fill
+                sizes="25vw"
+                className="object-cover object-[center_30%]"
               />
             </button>
           )
