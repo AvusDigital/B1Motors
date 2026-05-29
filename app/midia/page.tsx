@@ -1,14 +1,20 @@
 const mediaImages = [
-  "https://i.postimg.cc/y6fVJfBq/320i_1.jpg",
-  "https://i.postimg.cc/c1Vxppz6/bmw_x1_1.jpg",
-  "https://i.postimg.cc/KYqFJwLx/celta1.jpg",
-  "https://i.postimg.cc/kG8mM5H4/montana_premier1.jpg",
-  "https://i.postimg.cc/qMMHg8Wb/hyundai_creta_1.jpg",
-  "https://i.postimg.cc/RhN0DBhh/hb20_1.jpg",
-  "https://i.postimg.cc/d1QP5j31/hb20s_1.jpg",
-  "https://i.postimg.cc/B6Fkx1Z5/jeep_compass_(5).jpg",
-  "https://i.postimg.cc/tgBPg1th/mustang_gt1.jpg",
-  "https://i.postimg.cc/VkHVpFd0/toyota_corolla_(9).jpg"
+  "https://i.postimg.cc/cHNX3CBt/FH6-(100).png",
+  "https://i.postimg.cc/k4dfSGvt/FH6-(102).png",
+  "https://i.postimg.cc/zXdtQJqX/FH6-(13).png",
+  "https://i.postimg.cc/3JLSqK32/FH6-(27).png",
+  "https://i.postimg.cc/dtWHfqJT/FH6-(28).png",
+  "https://i.postimg.cc/tCrScX9x/FH6-(30).png",
+  "https://i.postimg.cc/jSLg0GjW/FH6-(49).png",
+  "https://i.postimg.cc/HsWv3JDt/FH6-(6).png",
+  "https://i.postimg.cc/mgtXf0r5/FH6-(77).png",
+  "https://i.postimg.cc/FH8P9Dfx/FH6-(79).png",
+  "https://i.postimg.cc/Vkp7YDSK/FH6-(83).png",
+  "https://i.postimg.cc/vZkPQ31N/FH6-(85).png",
+  "https://i.postimg.cc/7ZdBxmGD/FH6-(93).png",
+  "https://i.postimg.cc/K8w9ZJkz/FH6-(94).png",
+  "https://i.postimg.cc/R0tgqKKz/FH6-(96).png",
+  "https://i.postimg.cc/HLM6jXXn/FH6-(97).png",
 ];
 
 export default function MidiaPage() {
