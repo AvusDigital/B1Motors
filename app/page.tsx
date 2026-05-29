@@ -76,18 +76,14 @@ export default function HomePage() {
               image:
                 "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=1400&q=80",
             },
+            
             {
               name: "Mídia",
               href: "/midia",
               image:
                 "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1400&q=80",
             },
-            {
-              name: "Notícias",
-              href: "/noticias",
-              image:
-                "https://images.unsplash.com/photo-1555215695-3004980ad54e?auto=format&fit=crop&w=1400&q=80",
-            },
+
             {
               name: "Sobre",
               href: "/sobre",
